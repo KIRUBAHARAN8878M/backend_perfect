@@ -15,7 +15,7 @@ const DB = "UserProduct";
 app.use(express.json());
 app.use(
   cors({
-    orgin: "http://localhost:3000",
+    origin: "https://sbadmin-frontend.netlify.app",
   })
 );
 
