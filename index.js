@@ -8,9 +8,6 @@ const mongoClient = mongodb.MongoClient;
 const URL = process.env.DB_URL;
 const DB = "UserProduct";
 
-
-
-
 //middleware
 app.use(express.json());
 app.use(
